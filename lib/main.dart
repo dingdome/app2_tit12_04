@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('หน้าแรก')),
+      appBar: AppBar(title: const Text('_dingdome')),
       body: Column(
         children: [
           Text("dsds"),
@@ -61,7 +61,7 @@ class HomePage extends StatelessWidget {
               ElevatedButton(
                 //ปุ่มทึบ
                 onPressed: () => {},
-                child: Text("press"),
+                child: Text("press "),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue, //สีพื้นหลังปุ่ม
                   foregroundColor: Colors.white, //สีข้อความไอคอน
