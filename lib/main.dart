@@ -61,7 +61,7 @@ class HomePage extends StatelessWidget {
               ElevatedButton(
                 //ปุ่มทึบ
                 onPressed: () => {},
-                child: Text("press"),
+                child: Text("press "),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue, //สีพื้นหลังปุ่ม
                   foregroundColor: Colors.white, //สีข้อความไอคอน
